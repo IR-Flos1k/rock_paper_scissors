@@ -41,7 +41,7 @@ class AIBot:
                 return random.choice(self.valid_moves)
                 
         except Exception as e:
-            print(f"Error: no connection with internet\AI {e}. Return random choice")
+            print(f"Error: no connection with internet|AI {e}. Return random choice")
             return random.choice(self.valid_moves)
 
     def update_memory(self, player_move):
